@@ -1,23 +1,22 @@
-# Audit your teammate's project — GDPR lens
+# GDPR Audit — TenderAI Assistant (Teammate Project Review)
 
-**Track:** Module 7 — GDPR · **When:** Week 7, Day 3 · **Status:** Required
+Independent GDPR audit of a teammate's Project 3, completed for the "Audit your teammate's project — GDPR lens" lab.
 
-This repository contains everything you need for this lab.
+**Auditor:** Akansha Verma
+**Teammate / Builder:** Vincent
+**Project audited:** [`LAB_TENDERAI_ASSISTANT`](https://github.com/vince-cellular/LAB_TENDERAI_ASSISTANT) — TenderAI, an AI-powered RAG assistant that analyzes tender PDFs against a company knowledge base to assess bid readiness and generate a draft tender response blueprint.
+**Date:** 19 August 2026
+**Basis for review:** Teammate's data processing brief only, per the lab's independence rules — no access to Vincent's own lawful basis assessments, DPIA analysis, findings, or memo before this audit was written.
 
-## Files
+## File map
 
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+| File | Contents |
+|---|---|
+| `gdpr_audit_tenderai_teammate_review.md` | Independent audit report: system summary, data and role map, five compliance findings with severity ratings, GDPR obligations checklist, overall recommendation, and disclaimer. |
+| `pre_audit_inventory.md`| Data Processing brief shared by Vincent |
 
-## How to complete this lab
+## Note on scope
 
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
+This repository contains only the GDPR audit deliverable for this lab. TenderAI's source code lives in its own separate repository, linked above, and is not duplicated here.
 
-## Submission hygiene
-
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+**This audit is a first-pass compliance assessment for a coursework exercise — not a legal opinion, a DPIA, or a certification of compliance.**
