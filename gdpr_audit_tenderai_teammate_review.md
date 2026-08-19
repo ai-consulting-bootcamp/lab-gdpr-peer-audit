@@ -5,46 +5,51 @@
 **Basis for review:** Teammate's data processing brief only, exchanged per lab kick-off rules — no access to Vincent's lawful basis assessments, DPIA analysis, findings, or memo before this audit was written or the debrief occurred.
 **Date:** 19 August 2026
 
-## Confirmation of exchange: 
-This audit was conducted against the "TenderAI Assistant — GDPR Data Processing Brief" (dated 19 August 2026, status "[pre_audit_inventory](pre_audit_inventory.md)") only. No architecture diagram beyond the data-flow sequence embedded in the brief itself was provided. *
+### What We Exchanged
+
+This audit was conducted against the "TenderAI Assistant — GDPR Data Processing Brief" (dated 19 August 2026, status "[pre_audit_inventory](pre_audit_inventory.md)") only. No architecture diagram beyond the data-flow sequence embedded in the brief itself was provided.
+
+### Received before the audit
+
+- `pre_audit_inventory.md` — Vincent's data processing brief.
+- The brief was the sole substantive project artifact used to conduct Phases 1–4.
+
+### Not received before the audit
+
+I did not have access to Vincent's:
+- lawful-basis assessment,
+- DPIA analysis,
+- compliance findings,
+- audit conclusions,
+- or final memo.
+
+These materials were not used to form the independent audit findings.
+
+### Independence boundary
+
+The audit was drafted independently from the exchanged data processing brief before the Phase 5 debrief. Any information confirmed or clarified during the debrief is identified as post-audit information and was not used to retroactively construct the original findings.
 
 ### Ground rules
 Ground rules were respected — this report was drafted independently until Phase 4 based on data processing brief, before any discussion with Vincent. The clarifying questions arising from the brief's unresolved points are documented in Phase 3.
 
 ---
 
-## Phase 1: Read and Annotate
+## CFU Checkpoints
 
-*First-pass annotation of the brief, completed before drafting any table or finding. This is the evidence base for everything below.*
+### 1. Recognize
 
-### Personal data / special-category annotations
-- Identification/contact information — name, professional email, business phone, other contact details (Section 3). Not special category.
-- Professional information — job title, employer/affiliation, employment history, qualifications, certifications, project responsibilities, professional biography (Section 3). Not special category, but a professional biography or CV could incidentally narrate something that touches Article 9 (e.g., a career gap tied to a disclosed health event) — flagged as a residual inference risk, not a confirmed one.
-- Free-text content written by or about an identifiable person (Section 3) — this is the widest and least controllable category, since the brief itself says this "could include text written by an identifiable person or information describing an identifiable person" without further bounding.
-- AI-generated/derived information — extracted text, chunks, embeddings, retrieved passages, assessments, evidence summaries, draft responses (Section 3). The brief itself correctly flags that these "must be assessed to determine whether they contain or remain linked to personal data" — a mature observation for a self-authored brief to include, treated as a live open question below rather than assumed resolved.
-- Special-category data (Section 11): the brief explicitly lists the full Article 9 category set as a possibility in production documents (health, disability, ethnic origin, religious belief, trade union, political opinion, sexual orientation, biometric) and does not rule any of them out — status is self-marked **TBD — legal review**, treated here as an honest and appropriately unresolved answer rather than a gap in the brief's reasoning.
-
-### Unclear points / information requiring confirmation
-- The client organisation's "exact GDPR role must be confirmed for each deployment" (Section 6) — the brief doesn't commit to controller status being fixed across all client deployments.
-- OpenAI's and Pinecone's "precise contractual role, applicable service terms, data-processing terms, retention settings, and processing locations" are all separately marked TBD (Section 6) — five distinct open sub-questions bundled into one TBD.
-- Whether TenderAI is offered as a hosted service or self-hosted deployment is not addressed anywhere in the brief — this is a gap in the brief itself, not just an item the brief flags as TBD, and it directly affects whether Vincent's own entity has a processing role.
-
-### EU-border / non-EU vendor flow annotations
-- OpenAI and Pinecone are both named as external cloud services (Section 8); the brief explicitly states geographic processing/storage locations "have not yet been documented in this project" and that it is "not currently possible to conclude... whether all personal-data processing remains within the EEA."
-- Section 9 names the specific Chapter V mechanisms that would need to be identified (adequacy decision, SCCs, other) rather than just flagging "transfers may occur" — a well-scoped TBD.
-
-### Purpose-limitation annotations
-- Section 5 explicitly names purpose limitation as a live, unresolved question: "The system should not assume that information uploaded for one business purpose can automatically be reused for unrelated AI processing," marked **TBD — legal review for production deployments.** The brief does not claim purpose limitation is respected; it correctly declines to claim that.
-- Six distinct purposes are listed (ingestion, KB creation, requirement analysis, evidence retrieval, response generation, reporting). Purpose limitation needs to be assessed per purpose, not once for the whole system — noted for Phase 2.
-
-### Automated decision-making annotation
-- The brief's own data-flow diagram (Section 7) shows **"Human review by client team"** as an explicit step positioned before "Optional report generation." This is more specific than "human review is part of the workflow" — it's placed in the data flow itself, between AI output and any downstream business use.
-- The brief's own conclusion: "No current Article 22 use case identified in the MVP... TBD — reassess if later extended to make decisions about identifiable individuals." Treated as correct in Phase 4, with one caveat: TenderAI's outputs are about tender/bid readiness (a business decision), not decisions "about" an individual data subject, so Article 22 is unlikely to apply even at production scale — but the brief is right not to close this off permanently.
-
----
-
-## 2. Probe
-
+* **Categories of Personal Data Present:** 
+    * Identification & Contact Information: Names, professional email addresses, business phone numbers, and other contact details
+    * Professional Information: Job titles, employers/affiliations, employment histories, qualifications, certifications, project responsibilities, and professional biographies.
+    * Free-Text Content: Unbounded text content written by or describing identifiable persons.
+    AI-Generated/Derived Information: Extracted text, text chunks, vector embeddings, retrieved passages, assessments, evidence summaries, and draft responses.
+* **Special-Category Data (Involved or Inferable):** 
+    * Special-category data (Article 9) is absent in the current synthetic MVP.
+    * In production enterprise documents, Article 9 data (e.g., health, disability, racial origin, political opinions) could be directly present or inferable (e.g., career gaps in a CV tied to a health event).
+* **EU Border Crossings:** 
+    * Personal data and embeddings are transmitted to external cloud services (OpenAI and Pinecone).
+    * Geographic storage and processing locations are currently undocumented, meaning cross-border transfers outside the EEA cannot be ruled out.
+### 2. Probe
 The probe step tests the initial observations from the brief by asking what is known, what is uncertain, and what evidence would be needed before reaching a compliance conclusion.
 
 ### Probe 1 — Personal data and special-category data
@@ -126,6 +131,74 @@ The probe findings above generated the Phase 3 clarifying-questions log. Each un
 3. the provisional assumption used until the point is confirmed.
 
 See **Phase 3: Clarifying Questions Log** for the resulting five questions.
+    
+### 3. Map Roles
+Look at Role Map in Phase 2 below.  
+
+### 4. Find the Gaps
+* Lawful Basis
+* Purpose Limitation
+* DPIA Requirement
+* Automated Decision-Making (Art. 22)
+* International Transfer Mechanism
+
+## Phase 1: Read and Annotate
+
+*First-pass annotation of the brief, completed before drafting any table or finding. This is the evidence base for everything below.*
+
+### Data Processing Summary
+
+**System Overview & Current State**
+- TenderAI is an enterprise RAG assistant that extracts information from client documents to analyze requirements and draft tender responses.
+
+- Current MVP: The test environment currently uses synthetic data, meaning there is no immediate GDPR risk. The architecture relies on external services, specifically OpenAI (for text embeddings and LLM processing) and Pinecone (for vector database storage).
+
+**Production Risks & Personal Data** 
+- Real-world application: In production, the system will process actual enterprise documents that inevitably contain personal data (e.g., employee contact details, professional biographies, CVs, and employment histories).
+
+- Sensitive data: Depending on client uploads, the system could inadvertently process Special Category Data (Article 9), requiring technical controls.
+
+- Automated decision-making: TenderAI does not trigger Article 22 (automated decision-making with legal effects) because it does not make decisions about people, and its outputs are designed strictly for human review.
+
+**Third-Party Data Flows**
+- External processing: Data flows from the client through TenderAI to external cloud infrastructure.
+
+- Unresolved locations: It is currently undocumented whether OpenAI and Pinecone process or store this data within the EEA. This leaves the status of international data transfers unconfirmed.
+
+**Key Audit Priorities**
+Before TenderAI can move to production, the GDPR audit must resolve several TBDs:
+
+- Define the lawful basis and ensure AI processing is compatible with the client's original purpose for collecting the data.
+
+- Clarify exact controller/processor roles for the client, TenderAI, OpenAI, and Pinecone.
+
+- Verify Data Processing Agreements (DPAs) and establish legal mechanisms for any international transfers (e.g., SCCs).
+
+- Document technical protocols for data retention, deletion, and honoring data-subject rights.
+
+### Personal data / special-category annotations
+- Identification/contact information — name, professional email, business phone, other contact details (Section 3). Not special category.
+- Professional information — job title, employer/affiliation, employment history, qualifications, certifications, project responsibilities, professional biography (Section 3). Not special category, but a professional biography or CV could incidentally narrate something that touches Article 9 (e.g., a career gap tied to a disclosed health event) — flagged as a residual inference risk, not a confirmed one.
+- Free-text content written by or about an identifiable person (Section 3) — this is the widest and least controllable category, since the brief itself says this "could include text written by an identifiable person or information describing an identifiable person" without further bounding.
+- AI-generated/derived information — extracted text, chunks, embeddings, retrieved passages, assessments, evidence summaries, draft responses (Section 3). The brief itself correctly flags that these "must be assessed to determine whether they contain or remain linked to personal data" — a mature observation for a self-authored brief to include, treated as a live open question below rather than assumed resolved.
+- Special-category data (Section 11): the brief explicitly lists the full Article 9 category set as a possibility in production documents (health, disability, ethnic origin, religious belief, trade union, political opinion, sexual orientation, biometric) and does not rule any of them out — status is self-marked **TBD — legal review**, treated here as an honest and appropriately unresolved answer rather than a gap in the brief's reasoning.
+
+### Unclear points / information requiring confirmation
+- The client organisation's "exact GDPR role must be confirmed for each deployment" (Section 6) — the brief doesn't commit to controller status being fixed across all client deployments.
+- OpenAI's and Pinecone's "precise contractual role, applicable service terms, data-processing terms, retention settings, and processing locations" are all separately marked TBD (Section 6) — five distinct open sub-questions bundled into one TBD.
+- Whether TenderAI is offered as a hosted service or self-hosted deployment is not addressed anywhere in the brief — this is a gap in the brief itself, not just an item the brief flags as TBD, and it directly affects whether Vincent's own entity has a processing role.
+
+### EU-border / non-EU vendor flow annotations
+- OpenAI and Pinecone are both named as external cloud services (Section 8); the brief explicitly states geographic processing/storage locations "have not yet been documented in this project" and that it is "not currently possible to conclude... whether all personal-data processing remains within the EEA."
+- Section 9 names the specific Chapter V mechanisms that would need to be identified (adequacy decision, SCCs, other) rather than just flagging "transfers may occur" — a well-scoped TBD.
+
+### Purpose-limitation annotations
+- Section 5 explicitly names purpose limitation as a live, unresolved question: "The system should not assume that information uploaded for one business purpose can automatically be reused for unrelated AI processing," marked **TBD — legal review for production deployments.** The brief does not claim purpose limitation is respected; it correctly declines to claim that.
+- Six distinct purposes are listed (ingestion, KB creation, requirement analysis, evidence retrieval, response generation, reporting). Purpose limitation needs to be assessed per purpose, not once for the whole system — noted for Phase 2.
+
+### Automated decision-making annotation
+- The brief's own data-flow diagram (Section 7) shows **"Human review by client team"** as an explicit step positioned before "Optional report generation." This is more specific than "human review is part of the workflow" — it's placed in the data flow itself, between AI output and any downstream business use.
+- The brief's own conclusion: "No current Article 22 use case identified in the MVP... TBD — reassess if later extended to make decisions about identifiable individuals." Treated as correct in Phase 4, with one caveat: TenderAI's outputs are about tender/bid readiness (a business decision), not decisions "about" an individual data subject, so Article 22 is unlikely to apply even at production scale — but the brief is right not to close this off permanently.
 
 ---
 
