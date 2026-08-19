@@ -12,6 +12,14 @@
 
 This report follows the phase structure in `instructions.md`. Work was done independently; clarifying questions were logged in writing (Phase 3) before findings were finalized.
 
+## Submission hygiene
+
+Filenames are clear and descriptive (`stups_gdpr_audit_report.md`, not `peer_review.md`). This repository is scoped to this lab only, with no unrelated projects, dumps, or personal files. `README.md` includes a file map naming the teammate (GordonS) and the project audited (Stups). No secrets, API keys, or tokens are committed.
+
+## Ground rules
+
+Only GordonS's data processing brief materials were exchanged before this audit began (the `Peers Project files/` folder from the Day 2 lab — README, sample outputs, workflow export, GTM sprints, and stack decision doc). No discussion of GordonS's own GDPR conclusions took place before the debrief in Phase 5. Where the brief was unclear, questions were logged in writing with a stated provisional assumption before any answer was received — see Phase 3.
+
 ---
 
 ## Phase 1: Read and annotate
