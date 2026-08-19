@@ -5,7 +5,7 @@ Project: RegGuard-Mini
 Nelly walked through the audit report: one Blocking finding (LLM sub-processor DPA missing), two Significant findings (transfer mechanism, works-council monitoring risk), one Significant finding on free-text data minimisation, one Minor finding (retention undefined). Overall position: do not proceed on the LLM data flow until the Blocking and transfer findings close.
 
 ## Builder responds
-Kimia's self-audit memo landed on "proceed with conditions" overall, not "do not proceed." Same underlying facts, different label. Worth resolving: does a missing DPA for a processor already handling personal data count as a condition to satisfy, or a blocker? Rubric says Blocking. Flag this as the point to align on.
+Kimia's self-audit memo landed on "proceed with conditions" overall, not "do not proceed." Same underlying facts, different label. Worth resolving: does a missing DPA for a processor already handling personal data count as a condition to satisfy, or a blocker? Rubric says Blocking. 
 
 ## Lawful basis comparison
 Nelly's audit: could not determine a lawful basis from the brief. Marked "cannot determine."
