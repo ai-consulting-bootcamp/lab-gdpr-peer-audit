@@ -1,23 +1,26 @@
-# Audit your teammate's project — GDPR lens
+# Independent GDPR Peer Audit — Preparation
 
-**Track:** Module 7 — GDPR · **When:** Week 7, Day 3 · **Status:** Required
+**Lab:** Ironhack Week 7 — “Audit your teammate's project — GDPR lens”
 
-This repository contains everything you need for this lab.
+**Auditor:** Marija Kavaliauskaite
 
-## Files
+**Teammate:** TBD — not evidenced
 
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+**Project:** TBD — not evidenced
 
-## How to complete this lab
+**Status:** Evidence-gathering stage; substantive audit and debrief are not complete.
 
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
+## Independence statement
 
-## Submission hygiene
+This repository prepares an independent GDPR peer audit. The official teammate data-processing brief is pending, so no evidence-dependent GDPR conclusion has been formed. No teammate lawful-basis assessment, DPIA conclusion, compliance memo, gap findings, or completed peer-audit conclusions were consulted before this independent assessment.
 
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+Missing information is identified as **`PENDING — teammate data-processing brief required`**. This is intentional and follows the official lab rule to log gaps and provisional assumptions rather than invent facts.
+
+## File map
+
+- [`independent-gdpr-peer-audit.md`](independent-gdpr-peer-audit.md) — audit framework, CFU checkpoints, pending report, clarifying questions, open debrief, and conditional remediation-plan structure.
+- [`evidence-log.md`](evidence-log.md) — evidence received/not received and independence record.
+- [`instructions.md`](instructions.md) — official lab instructions.
+- [`rubric.md`](rubric.md) — official grading rubric.
+
+No final pull request should be opened until the teammate brief has been received and the substantive independent audit is complete. Phase 5 and the joint closing note require a real teammate conversation and remain open.
