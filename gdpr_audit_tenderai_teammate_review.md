@@ -362,33 +362,43 @@ This report is not a legal opinion, not a DPIA, and not a certification of compl
 
 ## Phase 5: Debrief Conversation
 
-*Completed jointly with Vincent following the six-step sequence in the lab instructions.*
+*Completed jointly with Vincent following the six-step sequence in the lab instructions. The information confirmed during the debrief is identified as post-audit clarification.*
 
-**Step 1 — Auditor presents** 
+**Step 1 — Auditor presents**
 
-Akansha walked through the report above without interruption, emphasising Finding 4 (the builder's-role gap) as the item this audit treats as most foundational, since it determines who owns closing Findings 2 and 3.
+Akansha walked through the audit report without interruption, emphasising Finding 4 (the builder's-role gap) as the most foundational finding because the builder's controller/processor role determines responsibility for closing several downstream findings, including vendor arrangements and operational controls.
 
-**Step 2 — Builder responds** 
+**Step 2 — Builder responds**
 
-Vincent confirmed the intended model for the MVP-to-pilot stage is a **hosted service** — Vincent's own infrastructure would run TenderAI on behalf of each pilot client, at least until a client specifically requests self-hosting. This resolves Clarifying Question 1 in favour of the audit's working assumption and confirms Finding 4's Significant severity was appropriate. Vincent also confirmed the "Human review by client team" step (Clarifying Question 3) is currently a described workflow expectation communicated to pilot users, not yet a technically enforced gate in the Streamlit interface — matching this audit's cautious assumption.
+Vincent confirmed that the intended MVP-to-pilot deployment model is a **hosted service**: Vincent's own infrastructure would run TenderAI on behalf of each pilot client, at least until a client specifically requests self-hosting. This resolves Clarifying Question 1 in favour of the audit's provisional assumption and confirms that Finding 4's Significant severity was appropriate.
+
+Vincent also clarified that the **"Human review by client team"** step is currently a documented workflow expectation communicated to pilot users, but is not yet a technically enforced gate in the Streamlit interface. This confirms the audit's cautious treatment of human review as a stated process control rather than a technically enforced safeguard.
 
 **Step 3 — Compare lawful basis selections**
-- Akansha's position: Did not propose a specific basis, per the lab's independence rules, but noted legitimate interest or contract performance (on behalf of the client-controller) as the likely fit for most purposes.
-- Vincent's position (self-audit): Legitimate interests, for the client-controller's processing of their own enterprise documents, with the caveat that Vincent's own hosted-service role as processor does not itself require a separate lawful basis — a processor acts on the controller's instructions rather than needing its own Art. 6 basis.
-- Which is stronger and why: Vincent's framing is more precise — it correctly distinguishes the controller's lawful basis from the processor's separate obligations (DPA, security, sub-processor management), which this audit's report did not fully separate out. Agreed as the stronger position.
+
+- **Akansha's position:** Because the audit was required to remain independent until the debrief, it did not adopt Vincent's lawful-basis conclusion in advance. The audit noted that legitimate interests or contract performance could potentially be relevant depending on the specific processing purpose and controller context, but did not treat either as established from the brief alone.
+
+- **Vincent's position (self-audit):** Legitimate interests for the client-controller's processing of its own enterprise documents, with the distinction that Vincent's hosted-service role as processor does not itself require a separate Article 6 lawful basis. His processor obligations instead include matters such as processing on documented instructions, contractual arrangements, security, and sub-processor management.
+
+- **Debrief conclusion:** Vincent's framing is more precise because it clearly separates the **controller's lawful-basis question** from the **processor's compliance obligations**. The debrief therefore sharpened the audit's Finding 1 rather than overturning it: the lawful basis must be established for the relevant controller and processing purposes, while Vincent's role creates a separate set of processor obligations.
 
 **Step 4 — Compare DPIA conclusions**
-- Akansha's position: Cannot determine from brief; likely not required at current MVP/synthetic-data scale, but no formal trigger analysis was possible from the brief alone.
-- Vincent's position: Also concluded a DPIA is not currently required at MVP stage, but flagged that production-scale deployment across multiple pilot clients would very plausibly trigger "large-scale processing" and "matching/combining datasets" (tender requirements cross-referenced against KB evidence) under the EDPB's nine criteria.
-- Agreement reached: both audits converge on "not required yet, likely required at production/multi-client scale" — no disagreement to work through further.
+
+- **Akansha's position:** The brief did not provide enough information to complete a formal DPIA-trigger analysis. Given the MVP's use of synthetic data, the audit considered a DPIA unlikely to be required at the current stage but treated this as provisional.
+
+- **Vincent's position (self-audit):** Vincent likewise concluded that a DPIA is not currently required at the MVP stage, but identified a substantially stronger likelihood of a DPIA requirement as TenderAI moves toward production and multiple pilot clients. His reasoning included the potential for large-scale processing and the matching/combining of datasets, among the EDPB's relevant criteria.
+
+- **Agreement reached:** Both assessments converge on **"not required yet, but reassess before production/multi-client deployment."** The debrief therefore did not identify a disagreement in outcome. It strengthened the forward-looking trigger analysis: the DPIA decision should be revisited when the system moves from synthetic-data MVP use toward real personal data, multiple clients, or materially expanded processing.
 
 **Step 5 — Compare gap lists**
-- What the self-audit caught that this external audit missed: Vincent's self-audit had already identified the controller/processor lawful-basis distinction noted in step 3, which sharpens this audit's Finding 1.
-- What this external audit caught that the self-audit missed: Vincent's self-audit had not explicitly named the builder's own hosted-vs-self-hosted role as an open question in the *brief itself* — Vincent knew the answer but hadn't recognised that the brief, as written, doesn't state it.
+
+- **What the self-audit caught that the external audit did not fully capture:** Vincent's self-audit made the controller/processor lawful-basis distinction explicit. This sharpens the audit's Finding 1 by separating the client's Article 6 lawful-basis responsibility from Vincent's obligations as a processor.
+
+- **What the external audit caught that the self-audit missed:** The external audit identified that the **hosted-versus-self-hosted deployment model was absent from the data processing brief itself**. Vincent knew the intended deployment model, but that tacit knowledge was not reflected in the documentation available to an independent reviewer. The external audit therefore identified a documentation and governance gap that was invisible from the builder's own perspective.
 
 **Step 6 — Joint closing note**
-Independent review caught a documentation gap the builder didn't know was a gap — Vincent knew TenderAI's deployment model but hadn't realised the brief never said so, because that answer felt too obvious to a builder to need writing down. Self-assessment is weakest exactly where a builder's own tacit knowledge quietly stands in for something that was never actually documented; a reader with no access to that tacit knowledge is what surfaces it.
 
+Independent review caught a documentation gap the builder did not know was a gap: Vincent knew TenderAI's intended deployment model but had not realised that the brief never documented it. The debrief shows that self-assessment can miss gaps where a builder's tacit knowledge fills in information that is absent from the written record; an independent reviewer, working only from the documentation, is more likely to surface those omissions.
 ---
 
 ## Reinforce
