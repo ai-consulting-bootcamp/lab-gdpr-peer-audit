@@ -6,6 +6,14 @@
 **Lab:** Audit your teammate's project — GDPR lens  
 **Date:** 19 August 2026
 
+
+## Ground rules
+
+I completed the GDPR audit independently before comparing conclusions with Mudit's self-assessment.
+
+I based my initial assessment only on the system brief and technical information available to me. Where the information was insufficient, I documented clarifying questions, why they mattered for GDPR, and my provisional assumptions rather than filling the gaps myself.
+
+Mudit's own conclusions on lawful basis, DPIA requirements and compliance gaps were only compared with mine during the debrief. His answers to factual clarification questions were used to update the audit where appropriate.
 ---
 
 # Phase 1 — Read and annotate
