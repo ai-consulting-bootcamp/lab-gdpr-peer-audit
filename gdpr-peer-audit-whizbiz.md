@@ -76,7 +76,7 @@ mechanism is in place for any of the three.**
 
 ## Phase 3: Clarifying questions log
 
-Sent to Vittal as [`questions-for-vittal-gdpr.md`](./questions-for-vittal-gdpr.md) on 19 August 2026, before finalising — we work by document
+Sent to Vittal as [`exchange-with-vittal-gdpr.md`](./exchange-with-vittal-gdpr.md) on 19 August 2026, before finalising — we work by document
 exchange, so this log is the artefact itself. **The provisional assumptions below were withheld from
 the version he received**, so they could not lead his answers. Unanswered at the time of writing.
 
@@ -218,5 +218,6 @@ assumptions recorded there.
 
 ## Phase 5: Debrief conversation
 
-_Pending. Six-step sequence: auditor presents, builder responds, compare lawful basis for the primary
-purpose, compare DPIA conclusions, compare gap lists, joint closing note._
+_Runs as a single document exchange rather than a meeting — [`exchange-with-vittal-gdpr.md`](./exchange-with-vittal-gdpr.md)
+carries the questions, his lawful basis and DPIA conclusion recorded before he reads this report,
+his response after, and the joint closing note. Pending his return of that file._

@@ -33,13 +33,13 @@ peer audit of the same system is a separate lab.
 | File | Contents |
 |---|---|
 | [`gdpr-peer-audit-whizbiz.md`](./gdpr-peer-audit-whizbiz.md) | The audit: Phase 1 read and annotate, Phase 2 personal data summary and role map, Phase 3 clarifying-questions log, Phase 4 audit report (system summary, data and role map, eight findings with severity, GDPR obligations checklist, overall recommendation, disclaimer) |
-| [`questions-for-vittal-gdpr.md`](./questions-for-vittal-gdpr.md) | The clarifying questions as sent to my teammate, each naming the obligation it bears on — assumptions withheld so they could not lead his answers |
-| [`debrief-and-joint-closing-note.md`](./debrief-and-joint-closing-note.md) | Phase 5: the six-step debrief, comparing lawful basis and DPIA conclusions, and the joint closing note |
+| [`exchange-with-vittal-gdpr.md`](./exchange-with-vittal-gdpr.md) | The single exchange document: Phase 3 clarifying questions, my teammate's lawful basis and DPIA conclusion recorded before he reads my report, his response, and the Phase 5 joint closing note |
 | [`stretch-remediation-plan-article-28-dpa.md`](./stretch-remediation-plan-article-28-dpa.md) | Stretch: remediation plan for the blocking Article 28 finding — artifact, owner, timeline, and the evidence a regulator would accept |
 | [`reinforce-audit-reflections.md`](./reinforce-audit-reflections.md) | Reinforce: documentation gaps in my own project, and what independent review revealed that self-assessment cannot |
 
-**Working mode:** all exchange with my teammate is by markdown document — questions out, answers
-back, report, then the debrief written into a shared file.
+**Working mode:** one markdown document each way. The exchange file goes out with the report, comes
+back with his answers, his own position and the joint note — the questions log and the debrief are
+the same artefact rather than four round trips.
 
 **Ground rules observed:** only Vittal's project materials were exchanged before the audit — no
 self-audit findings, lawful-basis selections or DPIA conclusion — and clarifying questions were
