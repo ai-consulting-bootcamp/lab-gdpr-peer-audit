@@ -1,23 +1,17 @@
 # Audit your teammate's project — GDPR lens
 
-**Track:** Module 7 — GDPR · **When:** Week 7, Day 3 · **Status:** Required
+**Track:** Module 7 — GDPR · **When:** Week 7, Day 3 · **Status:** Complete
 
-This repository contains everything you need for this lab.
+**Teammate audited:** GordonS
+**Project audited:** Stups — a personal daily evening-suggestion agent for Hamburg, built on n8n
 
 ## Files
 
+- [`stups_gdpr_audit_report.md`](./stups_gdpr_audit_report.md) — the audit report deliverable (Phases 1–5)
 - [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
-
-## How to complete this lab
-
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
+- [`rubric.md`](./rubric.md) — how this submission is graded
 
 ## Submission hygiene
 
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+- Repository is scoped to this lab only.
+- No secrets, API keys, or tokens are committed.
