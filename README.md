@@ -15,6 +15,15 @@ Independent GDPR audit of a teammate's Project 3, completed for the "Audit your 
 | `gdpr_audit_tenderai_teammate_review.md` | Independent audit report: system summary, data and role map, five compliance findings with severity ratings, GDPR obligations checklist, overall recommendation, and disclaimer. |
 | `pre_audit_inventory.md`| Data Processing brief shared by Vincent |
 
+### Lab Deliverables
+* `gdpr_audit_tenderai_teammate_review.md`— complete Phases 1–5 audit report
+* `pre_audit_inventory.md` — teammate's exchanged data processing brief
+* `README.md` — repository map and submission information
+
+> Core lab phases completed: Phase 1, Phase 2, Phase 3, Phase 4, and Phase 5.
+
+> Extension work: Reinforce and Stretch are included in the audit report.
+
 ## Note on scope
 
 This repository contains only the GDPR audit deliverable for this lab. TenderAI's source code lives in its own separate repository, linked above, and is not duplicated here.
