@@ -43,6 +43,92 @@ Ground rules were respected — this report was drafted independently until Phas
 
 ---
 
+## 2. Probe
+
+The probe step tests the initial observations from the brief by asking what is known, what is uncertain, and what evidence would be needed before reaching a compliance conclusion.
+
+### Probe 1 — Personal data and special-category data
+
+**What the brief establishes:**  
+Tender documents and company knowledge-base material may contain names, professional contact details, employment history, qualifications, biographies, and free-text content.
+
+**What remains uncertain:**  
+The brief does not establish whether production documents contain special-category personal data under Article 9 GDPR.
+
+**Evidence needed:**  
+A representative production-data inventory or documented data classification showing whether Article 9 data can occur.
+
+**Provisional conclusion:**  
+Do not assume special-category data is absent. Treat its presence as a residual risk requiring confirmation before production use.
+
+### Probe 2 — Processing purposes
+
+**What the brief establishes:**  
+The system is used for tender analysis, bid-readiness assessment, retrieval, evidence extraction, and generation of draft response material.
+
+**What remains uncertain:**  
+The brief does not fully establish whether all proposed uses of uploaded material are compatible with the purposes for which the information was originally collected.
+
+**Evidence needed:**  
+A documented purpose inventory and compatibility/lawful-basis assessment for each material processing purpose.
+
+**Provisional conclusion:**  
+Purpose limitation cannot be confirmed from the brief alone.
+
+### Probe 3 — Roles and deployment model
+
+**What the brief establishes:**  
+The system uses OpenAI and Pinecone as external services, while the precise role of the TenderAI operator is not fully documented.
+
+**What remains uncertain:**  
+Whether TenderAI is operated as a hosted service or distributed as self-hosted software.
+
+**Evidence needed:**  
+A confirmed deployment architecture and contractual role map.
+
+**Provisional conclusion:**  
+The builder/operator role cannot be conclusively determined from the brief alone.
+
+### Probe 4 — International transfers and vendors
+
+**What the brief establishes:**  
+OpenAI and Pinecone are external cloud services.
+
+**What remains uncertain:**  
+Processing/storage locations, applicable transfer mechanisms, retention settings, and vendor terms are not fully documented.
+
+**Evidence needed:**  
+Current vendor DPAs, processing locations, transfer safeguards, retention configuration, and training-use settings.
+
+**Provisional conclusion:**  
+International-transfer compliance cannot be confirmed from the brief alone.
+
+### Probe 5 — Automated decision-making and human review
+
+**What the brief establishes:**  
+The system produces bid-readiness assessments and draft response material, with human review in the workflow.
+
+**What remains uncertain:**  
+The brief does not fully document whether any output could become a decision producing legal or similarly significant effects on an individual.
+
+**Evidence needed:**  
+A documented decision-flow description showing the role of human review and whether outputs directly determine decisions about individuals.
+
+**Provisional conclusion:**  
+Article 22 risk appears limited by human review, but the final assessment depends on the actual production workflow.
+
+### Probe-to-question traceability
+
+The probe findings above generated the Phase 3 clarifying-questions log. Each unresolved point was converted into a question specifying:
+
+1. what information is needed;
+2. why the information matters under GDPR; and
+3. the provisional assumption used until the point is confirmed.
+
+See **Phase 3: Clarifying Questions Log** for the resulting five questions.
+
+---
+
 ## Phase 2: Personal Data and Role Map
 
 ### Personal data summary
