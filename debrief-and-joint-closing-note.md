@@ -2,14 +2,21 @@
 
 **Participants:** Ugo Ahukannah (auditor) and Vittal Navale (builder) · **System:** Whizbiz — Messenger Accountant
 
-_To be completed live, in the six-step sequence. Nothing is pre-filled: the lab requires a real
+**Conducted by document exchange, not live** — this file is passed between us, each side writing
+into its own rows. The sequence is preserved: I present first and he responds without having seen
+my conclusions beforehand.
+
+_To be completed in the six-step sequence. Nothing is pre-filled: the lab requires a real
 comparison, and a debrief written before the conversation would be a fabricated one._
 
 ## 1. Auditor presents
-_Walk through [`gdpr-peer-audit-whizbiz.md`](./gdpr-peer-audit-whizbiz.md) uninterrupted._
+_Sent to Vittal as [`gdpr-peer-audit-whizbiz.md`](./gdpr-peer-audit-whizbiz.md), unabridged, after his
+answers to the clarifying questions arrive._
 
 ## 2. Builder responds
-_Five minutes of context and correction._
+_His written response: context and corrections._
+
+> _Vittal's response:_
 
 ## 3. Compare lawful basis for the primary processing purpose
 | | Lawful basis for the core bookkeeping purpose |

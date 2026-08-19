@@ -76,7 +76,9 @@ mechanism is in place for any of the three.**
 
 ## Phase 3: Clarifying questions log
 
-Sent to Vittal in writing on 19 August 2026, before finalising. Unanswered at the time of writing.
+Sent to Vittal as [`questions-for-vittal-gdpr.md`](./questions-for-vittal-gdpr.md) on 19 August 2026, before finalising — we work by document
+exchange, so this log is the artefact itself. **The provisional assumptions below were withheld from
+the version he received**, so they could not lead his answers. Unanswered at the time of writing.
 
 **Q1 — Is there any Article 28 agreement between Whizbiz and a subscribing owner, in draft or
 otherwise?**
