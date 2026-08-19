@@ -777,16 +777,16 @@ The following table is to be completed during the debrief with the project owner
 
 | Topic                      | Independent audit — Vincent                                                        | Self-audit — Akansha | Agreement / Divergence |
 | -------------------------- | ---------------------------------------------------------------------------------- | -------------------- | ---------------------- |
-| Lawful basis               | Not established from brief; requires assessment                                    | To be discussed      | TBD                    |
-| Purpose limitation         | Significant concern regarding reuse of workplace communications for AI profiling   | To be discussed      | TBD                    |
-| DPIA                       | Strongly indicated before production processing                                    | To be discussed      | TBD                    |
-| International transfers    | Cannot determine; vendor regions and mechanisms unresolved                         | To be discussed      | TBD                    |
-| DPA / processor governance | Roles and DPA status require verification                                          | To be discussed      | TBD                    |
-| Data minimisation          | Cannot determine from brief                                                        | To be discussed      | TBD                    |
-| Retention / deletion       | Cannot determine from brief                                                        | To be discussed      | TBD                    |
-| Article 22                 | Cannot determine; downstream employment use must be clarified                      | To be discussed      | TBD                    |
-| Special-category data      | No confirmed Article 9 data, but potential sensitive inference requires assessment | To be discussed      | TBD                    |
-| Employee transparency      | Cannot determine from brief                                                        | To be discussed      | TBD                    |
+| Lawful basis               | Not established from brief; requires assessment                                    | To be discussed      | Agreed                    |
+| Purpose limitation         | Significant concern regarding reuse of workplace communications for AI profiling   | To be discussed      | Agreed                    |
+| DPIA                       | Strongly indicated before production processing                                    | To be discussed      | Agreed                    |
+| International transfers    | Cannot determine; vendor regions and mechanisms unresolved                         | To be discussed      | Agreed                    |
+| DPA / processor governance | Roles and DPA status require verification                                          | To be discussed      | Agreed                    |
+| Data minimisation          | Cannot determine from brief                                                        | To be discussed      | Agreed                    |
+| Retention / deletion       | Cannot determine from brief                                                        | To be discussed      | Agreed                    |
+| Article 22                 | Cannot determine; downstream employment use must be clarified                      | To be discussed      | No                    |
+| Special-category data      | No confirmed Article 9 data, but potential sensitive inference requires assessment | To be discussed      | Agreed                    |
+| Employee transparency      | Cannot determine from brief                                                        | To be discussed      | No                    |
 
 ---
 
@@ -834,16 +834,15 @@ An independent reviewer therefore needs to assess the complete processing chain 
 
 During the meeting with Akansha, the following questions should be discussed:
 
-1. What lawful basis did you select for the primary processing purpose?
-2. Did you treat the analysis of workload, morale and attrition as part of the same purpose or as separate processing purposes?
-3. Did your DPIA assessment consider the individual-level profiling aspect of the system?
-4. Did you identify the same international-transfer uncertainty?
-5. Did you identify the complete third-party processing chain?
-6. Did you consider embeddings and generated reports as part of the personal-data lifecycle?
-7. How did you assess the human-in-the-loop mechanism in relation to Article 22?
-8. Did you identify any potential Article 9/sensitive inference issue?
-9. What retention and deletion mechanism did you identify?
-10. What did the independent audit identify that was not obvious when reviewing the system from the builder's perspective?
+1. What lawful basis did you select for the primary processing purpose? Legitimate interest assessment LIA
+2. Did you treat the analysis of workload, morale and attrition as part of the same purpose or as separate processing purposes? yes
+3. Did your DPIA assessment consider the individual-level profiling aspect of the system? Yes
+4. Did you identify the same international-transfer uncertainty? yes
+5. Did you identify the complete third-party processing chain? Yes
+6. Did you consider embeddings and generated reports as part of the personal-data lifecycle? yes
+7. Did you identify any potential Article 9/sensitive inference issue? yes
+8. What retention and deletion mechanism did you identify? Define retention and deletion controls across the complete data pipeline.
+9. What did the independent audit identify that was not obvious when reviewing the system from the builder's perspective? Retention & transfer EEA 
 
 ---
 
@@ -853,11 +852,11 @@ During the meeting with Akansha, the following questions should be discussed:
 
 To be completed during the debrief.
 
-**Agreement 1:** TBD
+**Agreement 1:** Lawful bias ok
 
-**Agreement 2:** TBD
+**Agreement 2:** Purpose bias ok
 
-**Agreement 3:** TBD
+**Agreement 3:** DPIA ok
 
 ---
 
@@ -865,11 +864,7 @@ To be completed during the debrief.
 
 To be completed during the debrief.
 
-**Divergence 1:** TBD
-
-**Divergence 2:** TBD
-
-**Divergence 3:** TBD
+No areas of divergence 
 
 ---
 
