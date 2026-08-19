@@ -5,6 +5,8 @@
 **Basis for review:** Teammate's data processing brief only, exchanged per lab kick-off rules — no access to Vincent's lawful basis assessments, DPIA analysis, findings, or memo before this audit was written or the debrief occurred.
 **Date:** 19 August 2026
 
+---
+
 ### What We Exchanged
 
 This audit was conducted against the "TenderAI Assistant — GDPR Data Processing Brief" (dated 19 August 2026, status "[pre_audit_inventory](pre_audit_inventory.md)") only. No architecture diagram beyond the data-flow sequence embedded in the brief itself was provided.
@@ -28,6 +30,8 @@ These materials were not used to form the independent audit findings.
 ### Independence boundary
 
 The audit was drafted independently from the exchanged data processing brief before the Phase 5 debrief. Any information confirmed or clarified during the debrief is identified as post-audit information and was not used to retroactively construct the original findings.
+
+---
 
 ### Ground rules
 Ground rules were respected — this report was drafted independently until Phase 4 based on data processing brief, before any discussion with Vincent. The clarifying questions arising from the brief's unresolved points are documented in Phase 3.
@@ -141,6 +145,8 @@ Look at Role Map in Phase 2 below.
 * DPIA Requirement
 * Automated Decision-Making (Art. 22)
 * International Transfer Mechanism
+
+---
 
 ## Phase 1: Read and Annotate
 
