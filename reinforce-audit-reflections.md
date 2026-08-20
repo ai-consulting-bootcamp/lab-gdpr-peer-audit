@@ -2,18 +2,48 @@
 
 ## 1. The clarifying questions logged about my own system
 
-_Pending — completed once Vittal's questions about AI Pre-Scan arrive._
+Five received. My prediction — that I would fail on retention, records of processing, and transfer
+mechanisms — was right about the *shape* and wrong about the *worst* one.
 
-Written before seeing them, so the answer cannot be retrofitted: the questions I expect to fail are
-**"what is your retention period"**, **"where is your record of processing activities"**, and
-**"which transfer mechanism covers OpenAI and Pinecone"**. My own GDPR self-audit found that 2 of 13
-expected accountability documents exist, so any question aimed at documentation rather than
-behaviour will land on nothing. My project documentation answers *how the system works* in unusual
-depth and *who is accountable for the data* not at all — which is a genre gap, not an effort gap.
+| His question | Can my project documentation answer it? |
+|---|---|
+| Q1 — does the `notes` field hold a contact person's name? | **No.** And worse than unanswerable: I had never inventoried the field at all |
+| Q2 — hosted backend or adviser self-hosting? | **Partially.** My self-audit records the fork; the project says nothing, and the decision is unmade |
+| Q3 — retention schedule for the local job store? | **No.** Predicted. Exclusion from git is source-control hygiene, not a control |
+| Q4 — transfer mechanism, and on what timeline? | **Half.** The gap is stated candidly in `docs/proposal.md` §9; the *timeline* is not, because there isn't one |
+| Q5 — can a person named in a filed report have it removed? | **No.** My purge covers the research store and forgets the delivered artefact |
+
+**What this says about my documentation, beyond the predicted genre gap.** Three of my answers were
+"yes, but it lives in a lab submission rather than in the repository" — the LIA, the Notion processor
+assessment, the retention entry for filed reports. **Compliance reasoning kept where an auditor will
+not look is indistinguishable from compliance reasoning never done**, and an auditor is right to mark
+it absent. That is a filing problem masquerading as a documentation gap, and it is more embarrassing
+than simply not having done the work, because the work was done.
 
 ## 2. A finding I initially disagreed with
 
-_Pending the debrief._
+**His Finding 6 — that a DPIA is *not* required today, only before GTM sprint 2's scheduled re-scans.**
+
+**Why I disagreed.** My self-audit counted three EDPB criteria — innovative technology, matching or
+combining datasets, and cross-border transfer with no documented mechanism — crossing the
+two-criteria threshold, and I required the Article 35(1) assessment be recorded now. He counts two,
+rejecting systematic monitoring and large-scale processing at prototype scale, and gates the DPIA on
+sprint 2. My instinct was that he had under-counted: "matching or combining datasets" plainly applies
+when search, news, registry and vendor sources are joined per company, and a threshold that depends
+on today's scale is a threshold that moves under you.
+
+**Where I ended up, and it is mostly his way.** His reasoning contains a criterion mine never
+touched: **scheduled re-scans are systematic monitoring**. Repeated automated research about the same
+companies over time, naming the same individuals repeatedly, is a materially different processing
+activity from a one-off scan — and it is precisely the point at which that criterion bites. My flat
+"threshold crossed today" is less useful advice than his "here is the specific product milestone that
+requires a DPIA", because mine tells a client to do paperwork and his tells them *when and why*.
+
+**Where I still hold ground.** The dataset-combination criterion does apply today, so I read three
+rather than two — and the Article 35(1) decision should be written down **now** regardless of which
+count is right, which his own recommendation ("worth a documented decision") already concedes. The
+agreed position we landed on is better than either original: record the threshold assessment now,
+gate the DPIA itself on the scheduled-sweep milestone. Neither of us proposed that alone.
 
 ## 3. What this audit revealed about GDPR self-assessment, written before the debrief
 
