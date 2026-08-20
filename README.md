@@ -21,3 +21,28 @@ This repository contains everything you need for this lab.
 - Keep this repository scoped to this lab only — no unrelated projects or personal files.
 - Use clear, descriptive filenames.
 - Remove secrets, API keys, and tokens before committing.
+
+---
+
+## Submission contents (Ugo Ahukannah)
+
+**Teammate:** Vittal Navale · **Project audited:** [Whizbiz — Messenger Accountant](https://github.com/vitcipher/W6_Project3-Whizbiz-Messenger-Accountant),
+a chat-based bookkeeping bot for German solo business owners. This is the GDPR lens; the EU AI Act
+peer audit of the same system is a separate lab.
+
+| File | Contents |
+|---|---|
+| [`gdpr-peer-audit-whizbiz.md`](./gdpr-peer-audit-whizbiz.md) | The audit: Phase 1 read and annotate, Phase 2 personal data summary and role map, Phase 3 clarifying-questions log, Phase 4 audit report (system summary, data and role map, eight findings with severity, GDPR obligations checklist, overall recommendation, disclaimer) |
+| [`exchange-with-vittal-gdpr.md`](./exchange-with-vittal-gdpr.md) | The single exchange document: Phase 3 clarifying questions, my teammate's lawful basis and DPIA conclusion recorded before he reads my report, his response, and the Phase 5 joint closing note |
+| [`stretch-remediation-plan-article-28-dpa.md`](./stretch-remediation-plan-article-28-dpa.md) | Stretch: remediation plan for the blocking Article 28 finding — artifact, owner, timeline, and the evidence a regulator would accept |
+| [`response-to-vittals-gdpr-audit.md`](./response-to-vittals-gdpr-audit.md) | My builder-side response to his GDPR audit of AI Pre-Scan: answers to his five questions, my own position recorded before reading his report, the comparison, and my half of the joint closing note |
+| [`reinforce-audit-reflections.md`](./reinforce-audit-reflections.md) | Reinforce: documentation gaps in my own project, and what independent review revealed that self-assessment cannot |
+
+**Working mode:** one markdown document each way. The exchange file goes out with the report, comes
+back with his answers, his own position and the joint note — the questions log and the debrief are
+the same artefact rather than four round trips.
+
+**Ground rules observed:** only Vittal's project materials were exchanged before the audit — no
+self-audit findings, lawful-basis selections or DPIA conclusion — and clarifying questions were
+logged in writing. **Verdict: do not proceed** to processing real subscribers' data until four
+blocking findings are closed; the prototype run on the builder's own data is not condemned.
