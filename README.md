@@ -1,23 +1,11 @@
-# Audit your teammate's project — GDPR lens
+GDPR Audit Lab — Submission
 
-**Track:** Module 7 — GDPR · **When:** Week 7, Day 3 · **Status:** Required
+Teammate audited: [teammate's name] Project audited: Should-cost estimation system (Project 3) — LangGraph/n8n pipeline calculating manufactured-part cost estimates (material, process/labor, freight, overhead)
 
-This repository contains everything you need for this lab.
+File map
+File	Contents
+gdpr_audit_should-cost_system.md	Full audit report: personal data & role map (Phase 2), clarifying questions log (Phase 3), structured findings, GDPR obligations checklist, overall recommendation (Phase 4), and joint closing note (Phase 5, completed after debrief)
+README.md	This file
+Process note
 
-## Files
-
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
-
-## How to complete this lab
-
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
-
-## Submission hygiene
-
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+Audit was conducted independently, based only on the teammate's data processing brief (received during Kick-off) — no access to their self-audit findings, lawful basis assessment, or compliance memo prior to the Phase 5 debrief.
