@@ -1,26 +1,22 @@
-# Independent GDPR Peer Audit — Preparation
+# Independent GDPR Peer Audit — Intellectus
 
 **Lab:** Ironhack Week 7 — “Audit your teammate's project — GDPR lens”
-
 **Auditor:** Marija Kavaliauskaite
+**Teammate:** Paola Hintze
+**Project audited:** Intellectus
+**Status:** Independent Phases 1–4 complete; Phase 5 debrief pending.
 
-**Teammate:** TBD — not evidenced
+## Independent-review methodology
 
-**Project:** TBD — not evidenced
+The substantive audit uses only Paola Hintze's Intellectus Kick-off data-processing brief. It distinguishes the demonstrated consultant-facing MVP from prospective private-document, hosted external-AI, production storage, and person-level decision functionality. Where the brief is silent, the audit states **“Cannot determine from brief”** or labels a provisional assumption.
 
-**Status:** Evidence-gathering stage; substantive audit and debrief are not complete.
-
-## Independence statement
-
-This repository prepares an independent GDPR peer audit. The official teammate data-processing brief is pending, so no evidence-dependent GDPR conclusion has been formed. No teammate lawful-basis assessment, DPIA conclusion, compliance memo, gap findings, or completed peer-audit conclusions were consulted before this independent assessment.
-
-Missing information is identified as **`PENDING — teammate data-processing brief required`**. This is intentional and follows the official lab rule to log gaps and provisional assumptions rather than invent facts.
+No teammate self-audit, lawful-basis assessment, DPIA analysis, compliance memo, findings, completed peer-audit conclusions, or earlier EU AI Act audit was consulted. This preserves the independent-review boundary required by the lab.
 
 ## File map
 
-- [`independent-gdpr-peer-audit.md`](independent-gdpr-peer-audit.md) — audit framework, CFU checkpoints, pending report, clarifying questions, open debrief, and conditional remediation-plan structure.
-- [`evidence-log.md`](evidence-log.md) — evidence received/not received and independence record.
+- [`independent-gdpr-peer-audit.md`](independent-gdpr-peer-audit.md) — Phases 1–4, CFUs, personal-data and role maps, clarifying questions, findings, checklist, recommendation, open Phase 5, and stretch remediation plan.
+- [`evidence-log.md`](evidence-log.md) — permitted evidence and independence record.
 - [`instructions.md`](instructions.md) — official lab instructions.
 - [`rubric.md`](rubric.md) — official grading rubric.
 
-No final pull request should be opened until the teammate brief has been received and the substantive independent audit is complete. Phase 5 and the joint closing note require a real teammate conversation and remain open.
+The final pull request remains intentionally unopened because Phase 5 requires a real debrief with Paola and a jointly written closing note.
