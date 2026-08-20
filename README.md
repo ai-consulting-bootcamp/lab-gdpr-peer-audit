@@ -1,23 +1,26 @@
-# Audit your teammate's project — GDPR lens
+# MIRA GDPR Peer Audit
 
-**Track:** Module 7 — GDPR · **When:** Week 7, Day 3 · **Status:** Required
+**Auditor:** Gretel Ceballos  
+**Builders:** Maria Cavalli and Elza Paegle  
+**Project audited:** MIRA V4, with V3 shared-platform context where relevant  
+**Status:** Complete
 
-This repository contains everything you need for this lab.
+This repository contains only the materials for the Module 7 GDPR peer-audit lab.
 
-## Files
+## Submission file map
 
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- [`mira_gdpr_peer_audit_evidence_log.md`](./mira_gdpr_peer_audit_evidence_log.md) — audit basis and independence, Phase 1 annotations, Phase 2 personal-data and role maps, and Phase 3 clarifying questions with builder responses.
+- [`mira_gdpr_peer_audit_report.md`](./mira_gdpr_peer_audit_report.md) — Phase 4 structured GDPR audit report, compliance findings, obligations checklist, overall recommendation and disclaimer.
+- [`mira_gdpr_peer_audit_debrief.md`](./mira_gdpr_peer_audit_debrief.md) — Phase 5 debrief and comparison, joint closing note, and Stretch remediation plan.
+- [`instructions.md`](./instructions.md) — original lab instructions.
+- [`rubric.md`](./rubric.md) — original grading rubric.
 
-## How to complete this lab
+## Independent-review approach
 
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
+The independent assessment was formed from the MIRA system documentation and factual clarifications from the builders. Builder-side lawful-basis conclusions, DPIA conclusions and self-audit findings were considered only during the debrief phase.
 
-## Submission hygiene
+## Overall recommendation
 
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+**Do not proceed with production personal-data processing until the blocking GDPR prerequisites are resolved and evidenced.**
+
+Development may continue with synthetic or irreversibly anonymised data while the controller identity, lawful-basis framework, DPIA, processor governance, transfer safeguards, retention/deletion controls and data-subject-rights operations are completed.
