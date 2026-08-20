@@ -185,57 +185,33 @@ The main personal data categories are employee identity data, department/team in
 
 Finding 1 — Lawful basis and transparency
 
-**Severity:**
+**Severity:** Significant
 
-Significant
+**Description:** The brief identifies several processing purposes, including answering employee questions, authenticating users, operating and troubleshooting the system, monitoring performance, and improving retrieval quality. However, it does not clearly state the lawful basis for each processing purpose. It also does not confirm how employees will be informed that their questions, identity data, and logs may be processed by the system and possibly by third-party vendors.
 
-**Description:**
+**Recommended action:** Document the lawful basis for each processing purpose before production. The likely basis may be legitimate interests for internal knowledge support, but this should be assessed and balanced against employee rights. Update the employee privacy notice to explain AI processing, logging, retention, vendor involvement, and whether data may be used for system improvement.
 
-The brief identifies several processing purposes, including answering employee questions, authenticating users, operating and troubleshooting the system, monitoring performance, and improving retrieval quality. However, it does not clearly state the lawful basis for each processing purpose. It also does not confirm how employees will be informed that their questions, identity data, and logs may be processed by the system and possibly by third-party vendors.
-
-**Recommended action:**
-
-Document the lawful basis for each processing purpose before production. The likely basis may be legitimate interests for internal knowledge support, but this should be assessed and balanced against employee rights. Update the employee privacy notice to explain AI processing, logging, retention, vendor involvement, and whether data may be used for system improvement.
-
-**Escalation needed?**
-
-Yes — to the DPO or legal/privacy team.
+**Escalation needed?** Yes — to the DPO or legal/privacy team.
 
 Finding 2 — Vendor processing, DPAs, and international transfers
 
-**Severity:**
+**Severity:** Significant
 
-Significant
+**Description:** The brief lists several vendors and systems, including n8n, OpenAI if API used, Pinecone, Google Drive / Google Workspace, and Slack. It also states that processing may occur in the EU or outside the EU depending on vendor hosting arrangements. The brief does not provide evidence that DPAs, cloud processing terms, regional hosting choices, or transfer mechanisms are already in place.
 
-**Description:**
+**Recommended action:** Before production, confirm each vendor’s role, hosting region, data retention settings, and whether personal data is transferred outside the EU. Put appropriate DPAs or cloud processing terms in place. If data is transferred outside the EU, document a valid transfer mechanism such as Standard Contractual Clauses, an adequacy decision, or another valid safeguard.
 
-The brief lists several vendors and systems, including n8n, OpenAI if API used, Pinecone, Google Drive / Google Workspace, and Slack. It also states that processing may occur in the EU or outside the EU depending on vendor hosting arrangements. The brief does not provide evidence that DPAs, cloud processing terms, regional hosting choices, or transfer mechanisms are already in place.
-
-**Recommended action:**
-
-Before production, confirm each vendor’s role, hosting region, data retention settings, and whether personal data is transferred outside the EU. Put appropriate DPAs or cloud processing terms in place. If data is transferred outside the EU, document a valid transfer mechanism such as Standard Contractual Clauses, an adequacy decision, or another valid safeguard.
-
-**Escalation needed?**
-
-Yes — to the DPO, legal/privacy team, procurement, and IT/security.
+**Escalation needed?** Yes — to the DPO, legal/privacy team, procurement, and IT/security.
 
 Finding 3 — Retention, logging, and purpose limitation
 
-**Severity:**
+**Severity:** Significant
 
-Significant
+**Description:** The system may retain chat messages, conversation history, workflow logs, API usage logs, retrieval metadata, and usage statistics. The brief does not state how long this data will be kept or whether employee questions and logs may be reused for system improvement, training, monitoring, or performance evaluation. This creates uncertainty around storage limitation, data minimisation, purpose limitation, and employee transparency.
 
-**Description:**
+**Recommended action:** Define a clear retention schedule for messages, conversation history, and logs. Limit retained data to what is necessary for security, troubleshooting, auditability, and system improvement. Clearly prohibit employee monitoring or performance evaluation unless separately assessed, documented, and communicated. If employee questions are used for system improvement, explain this in the privacy notice and confirm the lawful basis.
 
-The system may retain chat messages, conversation history, workflow logs, API usage logs, retrieval metadata, and usage statistics. The brief does not state how long this data will be kept or whether employee questions and logs may be reused for system improvement, training, monitoring, or performance evaluation. This creates uncertainty around storage limitation, data minimisation, purpose limitation, and employee transparency.
-
-**Recommended action:**
-
-Define a clear retention schedule for messages, conversation history, and logs. Limit retained data to what is necessary for security, troubleshooting, auditability, and system improvement. Clearly prohibit employee monitoring or performance evaluation unless separately assessed, documented, and communicated. If employee questions are used for system improvement, explain this in the privacy notice and confirm the lawful basis.
-
-**Escalation needed?**
-
-Yes — to the DPO or privacy team, with input from IT/security and the system owner.
+**Escalation needed?** Yes — to the DPO or privacy team, with input from IT/security and the system owner.
 
 ### Section 4: Specific GDPR obligations checklist
 
@@ -254,8 +230,7 @@ Yes — to the DPO or privacy team, with input from IT/security and the system o
 
 **Proceed with conditions** — significant findings must be resolved before or shortly after go-live
 
-**Rationale:**
-The system appears to be a useful internal knowledge-support tool and is not intended to make decisions about employees or profile them. However, the brief leaves several important GDPR points unresolved: lawful basis, employee transparency, retention, vendor DPAs, international transfers, and access controls. These are significant issues, but they appear fixable before production deployment. My recommendation is to proceed only with conditions: complete the lawful basis assessment, update privacy notices, verify DPAs and transfer mechanisms, define retention rules, and confirm access controls before go-live.
+**Rationale:** The system appears to be a useful internal knowledge-support tool and is not intended to make decisions about employees or profile them. However, the brief leaves several important GDPR points unresolved: lawful basis, employee transparency, retention, vendor DPAs, international transfers, and access controls. These are significant issues, but they appear fixable before production deployment. My recommendation is to proceed only with conditions: complete the lawful basis assessment, update privacy notices, verify DPAs and transfer mechanisms, define retention rules, and confirm access controls before go-live.
 
 ### Section 6: What this report is not
 
