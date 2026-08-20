@@ -218,6 +218,45 @@ assumptions recorded there.
 
 ## Phase 5: Debrief conversation
 
-_Runs as a single document exchange rather than a meeting — [`exchange-with-vittal-gdpr.md`](./exchange-with-vittal-gdpr.md)
-carries the questions, his lawful basis and DPIA conclusion recorded before he reads this report,
-his response after, and the joint closing note. Pending his return of that file._
+**Complete**, as a single document exchange — [`exchange-with-vittal-gdpr.md`](./exchange-with-vittal-gdpr.md)
+holds the returned file.
+
+**All five assumptions confirmed, one sharpened.** No Article 28 agreement exists; no privacy notice
+or in-product warning of any kind; the invoiced customers would never learn they are in the system;
+and nothing is deleted outside the statutory bookkeeping rows. On the production environment my
+assumption was *understated* rather than wrong — I assumed the shared cohort instance was being used;
+Vittal confirms **no production instance exists at all**, with execution retention left at n8n's
+default and never deliberately configured. Finding 7 was a reasoned inference from absent evidence;
+it is now a confirmed fact.
+
+**Lawful basis — my "cannot determine" was right, and his answer supplies it.** I marked the
+checklist row *cannot determine from brief*, listing contract and legal obligation as the plausible
+candidates. He independently chose exactly that split: **Article 6(1)(c)** for the statutory EÜR and
+VAT records, since §147 AO requires them, and **Article 6(1)(b)** for the surrounding service. For
+the customers' names and addresses he marked **TBD — legal review**, on the ground that the basis
+sits with the owner's relationship to their own customer rather than with Whizbiz. That is the same
+gap my Finding 4 describes, reached from the opposite direction — he found it as an unresolved lawful
+basis, I found it as a missing notice path.
+
+**DPIA — agreed, counted differently.** Both audits conclude a DPIA is required. I counted four EDPB
+criteria; he counted three, folding "data of a highly personal nature" into the special-category
+point rather than treating it as its own trigger. Either count clears the two-criterion threshold, so
+this is a framing difference rather than a disagreement.
+
+**What he caught that I under-weighted, in his own words.** He notes that his self-audit had folded
+receipt-image retention into a general "retention is undefined" gap, and that my **Finding 6** is
+right to treat it as a **purpose-limitation** problem first: the image is kept for a second purpose —
+archival — that was never separately declared or given its own retention rule. He has reflected that
+framing back into his own worksheet.
+
+**What he could tell me that no repository could.** Three facts, each of which changed a finding's
+shape: `Kunde` and `Addresse` are mandatory content of a German invoice; the human confirm/cancel
+gate was **built and working, then cut under deadline pressure** — documented in `Learning.md` — so
+it was a resourcing decision rather than a design indifference; and no production environment exists.
+
+**One correction to my own checklist that this produced.** I marked the Article 22 row *appears met —
+not engaged*, and justified it partly on the grounds that "human review is inherent: every output
+lands in a chat the owner reads". Article 22 is indeed not engaged, and we agree on that. But
+"inherent" was too generous: with the confirm/cancel gate cut, review is an **implicit property of
+the direct-commit flow**, not an enforced step. The conclusion stands; the reasoning behind it was
+softer than I wrote it.
