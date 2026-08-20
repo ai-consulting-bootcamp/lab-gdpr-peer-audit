@@ -2,7 +2,7 @@
 - Week 7 / Day 3
 - Student: Andreas Papachristophorou
 - Course: AI Consulting & Integration 2026-07
-- Date: 2026-08-19
+- Date: 2026-08-20
 ---
 
 ## Data Processing Brief
@@ -172,3 +172,31 @@ Write three to five questions you would ask before finalising your audit.
 ---
 
 ## Phase 4: Audit report
+
+### Section 4: Specific GDPR obligations checklist
+
+| Obligation | Assessment | Note |
+| --- | --- | --- |
+| Lawful basis identified for each processing purpose | Gap identified | The brief lists purposes but does not state the lawful basis for each one. |
+| Purpose limitation respected, with no incompatible reuse | Cannot determine from brief | The system is not intended to evaluate employees, but it is unclear whether questions or logs may be reused for improvement, training, monitoring, or other purposes. |
+| Data minimisation, only necessary data collected | Cannot determine from brief | The brief lists several data types, including logs and usage statistics, but does not explain whether all are necessary or minimised. |
+| Controller/processor roles mapped and DPAs in place | Gap identified | The client appears to be controller and vendors are likely processors/sub-processors, but DPAs or equivalent terms are not evidenced. |
+| International transfer mechanism documented | Gap identified | The brief says processing may occur inside or outside the EU, but no transfer mechanism is documented. |
+| DPIA conducted if required | Cannot determine from brief | The system processes employee data and uses AI, logs, and cloud vendors. A DPIA screening should be completed to decide whether a full DPIA is required. |
+| Article 22 safeguard in place if automated decisions affect people | Appears met | The brief states the system does not make automated decisions about individuals and is not intended to evaluate employees. |
+| Privacy notice covers AI processing | Gap identified | The brief does not show that employees will receive a privacy notice explaining AI processing, logging, retention, vendor processing, or international transfers. |
+
+### Section 5: Overall recommendation
+
+**Proceed with conditions** — significant findings must be resolved before or shortly after go-live
+
+**Rationale:**
+The system appears to be a useful internal knowledge-support tool and is not intended to make decisions about employees or profile them. However, the brief leaves several important GDPR points unresolved: lawful basis, employee transparency, retention, vendor DPAs, international transfers, and access controls. These are significant issues, but they appear fixable before production deployment. My recommendation is to proceed only with conditions: complete the lawful basis assessment, update privacy notices, verify DPAs and transfer mechanisms, define retention rules, and confirm access controls before go-live.
+
+### Section 6: What this report is not
+
+This report is not a legal opinion, not a DPIA, and not a certification of compliance. The client should obtain legal review before relying on this assessment.
+
+---
+
+## Phase 5: Debrief conversation
