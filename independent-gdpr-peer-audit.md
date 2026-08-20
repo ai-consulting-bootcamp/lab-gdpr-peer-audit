@@ -3,7 +3,7 @@
 **Auditor:** Marija Kavaliauskaite
 **Teammate:** Paola Hintze
 **Project:** Intellectus
-**Status:** Phases 1–4 complete from the permitted brief; Phase 5 pending.
+**Status:** Complete — independent Phases 1–4 and real Phase 5 debrief recorded.
 
 ## Evidence received
 
@@ -191,21 +191,54 @@ This report is not a legal opinion, not a DPIA, and not a certification of GDPR 
 
 ## Phase 5 — Debrief
 
-**Status: PENDING — real debrief with teammate required.**
+**Status: COMPLETE — real debrief held with Paola Hintze after the independent audit was committed.**
 
-- Auditor presentation: `PENDING — real debrief with teammate required`
-- Builder response: `PENDING — real debrief with teammate required`
-- Comparison with Paola's self-audit: `PENDING — real debrief with teammate required`
-- Lawful-basis comparison: `PENDING — real debrief with teammate required`
-- DPIA comparison: `PENDING — real debrief with teammate required`
-- Gap-list comparison: `PENDING — real debrief with teammate required`
-- Joint closing note: `PENDING — real debrief with teammate required`
+### 1. Auditor presentation
 
-No response, agreement, disagreement, comparison or joint conclusion has been fabricated.
+Marija presented the independent audit preserved in commit `f6a24ee4b8614901f47b614643931684613ad12c`: five Significant findings and the recommendation **Proceed with conditions**. This commit predates the debrief and preserves evidence that the findings were reached independently.
+
+### 2. Builder response
+
+Paola accepted all five findings and their Significant severity:
+
+1. Lawfulness and purpose-specific accountability — Agree.
+2. Role allocation and processor governance — Agree.
+3. Data minimisation and incidental Article 9 handling — Agree.
+4. Retention, transparency and data-subject-rights operations — Agree.
+5. Production vendors and international-transfer readiness — Agree.
+
+Paola clarified that the demonstrated MVP already prevents private-document uploads, does not activate external AI processing, uses controlled fixtures without real private client data, and mandates consultant review. Both parties agreed that these protective technical boundaries reduce exposure but do not replace lawful-basis records, role allocation, contracts, retention/rights procedures, vendor diligence or tested production controls.
+
+### 3. Lawful-basis comparison
+
+Both reviews reached **Proceed with conditions** and broadly agreed that legitimate interests may be appropriate for bounded public-professional research. It is not automatically valid: the controller must document the specific interest, necessity and balancing test in an appropriate LIA, provide transparency and support objection rights. Contract may apply where processing is objectively necessary to provide the contracted service, but it does not automatically cover third-party public-person research. No final basis is asserted without the controller's documented assessment.
+
+### 4. DPIA comparison
+
+Both reviews agreed that a documented DPIA screening should be completed before production. The demonstrated bounded, organisation-level, consultant-reviewed MVP does not supply enough evidence for a definitive Article 35 conclusion. Future private-document ingestion, sensitive or vulnerable-person data, systematic monitoring, person-level scoring or consequential processing could materially change the trigger analysis and may require a DPIA before activation.
+
+Both also agreed that Article 22 does not appear to apply to the demonstrated MVP: it generates organisation-level hypotheses, makes no consequential individual decision, and requires consultant review. Future person-level or nominally reviewed decisions require reassessment.
+
+### 5. Gap-list comparison
+
+The reviews converged on lawful purpose/basis, role allocation and processor governance, incidental sensitive-data handling, retention/deletion, transparency and rights operations, production vendors and international transfers. Paola's self-audit made the demonstrated public-data MVP versus future private-document pilot boundary more explicit. The external audit independently confirmed that the unresolved governance risks were visible from the brief alone. Paola's clarifications strengthen the technical-boundary record without closing the governance evidence gaps.
+
+### 6. Joint closing note
+
+“Our independent reviews reached the same overall recommendation and broadly
+agreed on legitimate interests for bounded public-professional research, the
+absence of current Article 22 decision-making, and the need for a documented
+DPIA screening. The self-audit distinguished the demonstrated public-data MVP
+from the future private-document pilot more explicitly, while the external
+audit confirmed that the main unresolved risks—lawful purpose, role allocation,
+sensitive-data handling, retention, rights, vendors, and transfers—were visible
+from the brief alone. This comparison showed that self-assessment contributes
+implementation context, while external review tests whether the documentation
+communicates those boundaries clearly enough to be independently verified.”
 
 ## Reinforce
 
-**Status: PENDING — Phase 5 inputs required.** Paola's questions about Marija's project and Paola's independent report have not been reviewed. Documentation-gap reflection and any response to a disputed finding require the real debrief.
+**Status: Complete where applicable.** No clarifying questions from Paola about Marija's project were supplied for this exercise, so no documentation-gap response can be recorded without invention. No disputed-finding reflection is applicable because Paola accepted all five findings and their Significant severity.
 
 ## Stretch remediation plan
 
