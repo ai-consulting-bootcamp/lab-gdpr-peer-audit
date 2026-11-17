@@ -1,0 +1,14 @@
+{
+  "source_commit": "eff19e436f8a6a7f7b019a2ab846a8e4c1355d9c",
+  "method": "Static configuration query against a redacted workflow excerpt",
+  "external_requests_made": 0,
+  "checks": {
+    "custom_upload_uses_fixed_namespace": true,
+    "upload_clears_namespace": true,
+    "read_uses_same_index_and_routed_namespace": true,
+    "direct_generation_to_mail_path_present": true,
+    "recipient_expression_has_fixed_mailbox_fallback": true
+  },
+  "decision": "HOLD_LIVE_CUSTOM_UPLOADS_AND_DELIVERY",
+  "limitation": "No deployment status, concurrent execution, actual retrieval, delivery or disclosure tested."
+}

@@ -1,0 +1,32 @@
+{
+  "source_commit": "eff19e436f8a6a7f7b019a2ab846a8e4c1355d9c",
+  "source_sha256": "4550a4d6cd314bbfdaea6647de47f74ca0e9d2243be8bee125a3b4ee84a0a069",
+  "source_node_count": 24,
+  "vector_write": {
+    "index": "project-week6",
+    "namespace": "custom-strategy",
+    "clear_namespace": true
+  },
+  "routing": {
+    "custom_namespace": "custom-strategy",
+    "default_namespace": "northstar-strategy",
+    "parallel_namespace": "={{ $json.strategyNamespace ?? 'northstar-strategy' }}"
+  },
+  "vector_read": {
+    "index": "project-week6",
+    "namespace_expression": "={{ $('Start Parallel Research').first().json.strategyNamespace ?? 'northstar-strategy' }}"
+  },
+  "report_main_successors": {
+    "Check research availability": [
+      "AI Agent",
+      "Stop and Error"
+    ],
+    "AI Agent": [
+      "Convert Report to HTML"
+    ],
+    "Convert Report to HTML": [
+      "Send a message"
+    ]
+  },
+  "recipient_expression": "={{ $('Competitor Input').first().json.customerEmail || '[REDACTED_EMAIL]' }}"
+}
