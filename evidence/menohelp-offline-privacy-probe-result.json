@@ -1,0 +1,92 @@
+{
+  "assessment_date": "2026-11-17",
+  "source_commit": "89940e85b3f869b888e247a5b9651020b8d6c865",
+  "method": "Executed selected actual source functions with synthetic input and offline vendor spies; no app import or network calls.",
+  "input": {
+    "stats": {
+      "dataset_id": "synthetic-audit-001",
+      "user_id": "audit.person@example.invalid",
+      "age": 46,
+      "n_cycles": 6,
+      "mean_length": 32,
+      "events": []
+    },
+    "intake": {
+      "symptoms": {
+        "sleep": 3
+      },
+      "top_concern": "Synthetic case only: I am Alex Audit, alex.audit@example.invalid, with night sweats."
+    }
+  },
+  "observations": {
+    "user_identifier_survives_generation_prompt": true,
+    "free_text_identifier_survives_generation_prompt": true,
+    "raw_concern_reaches_embedding_client_spy": true,
+    "query_vector_reaches_supabase_rpc_spy": true,
+    "symptom_selector_reaches_supabase_spy": true
+  },
+  "captured_generation_user_message": "STATS (the only source of numbers):\n{\n \"dataset_id\": \"synthetic-audit-001\",\n \"user_id\": \"audit.person@example.invalid\",\n \"age\": 46,\n \"n_cycles\": 6,\n \"mean_length\": 32,\n \"events\": []\n}\n\nFINDINGS:\n{\n \"symptoms\": {\n  \"systems\": [\n   {\n    \"key\": \"sleep\",\n    \"label\": \"Sleep regulation\",\n    \"rating\": \"strong\"\n   }\n  ],\n  \"top_systems\": [\n   \"sleep\"\n  ],\n  \"n_systems\": 1,\n  \"n_strong\": 1,\n  \"n_moderate\": 0,\n  \"symptom_load\": \"moderate\",\n  \"top_concern\": \"Synthetic case only: I am Alex Audit, alex.audit@example.invalid, with night sweats.\",\n  \"strong\": [\n   \"sleep\"\n  ]\n },\n \"flags\": [],\n \"case_tags\": [],\n \"explanations\": []\n}",
+  "captured_free_text_embedding_call": {
+    "model": "text-embedding-3-small",
+    "input": [
+      "Synthetic case only: I am Alex Audit, alex.audit@example.invalid, with night sweats."
+    ]
+  },
+  "captured_supabase_rpc_example": {
+    "method": "match_documents",
+    "params": {
+      "query_embedding": [
+        0.11,
+        0.22,
+        0.33
+      ],
+      "match_count": 2,
+      "filter_section": "knowledge"
+    }
+  },
+  "captured_symptom_selectors": [
+    {
+      "field": "title",
+      "values": [
+        "Sleep regulation"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "app/agent/nodes.py": "6de7e2794e1b222a1da31a63b58cd9e93bd2f47ecfb3dae6ccadab70d13f45a2",
+    "app/agent/symptoms.py": "f6ac209b30bf5863fbe6445c7189bef0b5fda84f11a574d9a18ff8506c200df2",
+    "app/rag/retrieve.py": "b715ac9876e5df560b87eeaa5cbd6eeff21770a4ff94f41b7ee12c19f1f934e8",
+    "app/rag/clients.py": "f9886790ffc8f32b0545565725c834338ab67a83d72e841745e03ddf88733da3"
+  },
+  "source_function_lines": {
+    "summarise_symptoms": [
+      196,
+      211
+    ],
+    "retrieve": [
+      247,
+      298
+    ],
+    "_by": [
+      301,
+      302
+    ],
+    "_sections": [
+      306,
+      317
+    ],
+    "_labs_view": [
+      320,
+      326
+    ],
+    "_findings_view": [
+      329,
+      330
+    ],
+    "_prompt": [
+      333,
+      373
+    ]
+  },
+  "limitation": "No live requests, authentication tests, consent verification, vendor-region verification, retention measurement or actual anonymisation test. The three-number vector is a spy fixture, not a real embedding. No claim that these synthetic inputs were sent externally."
+}
