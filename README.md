@@ -21,3 +21,21 @@ This repository contains everything you need for this lab.
 - Keep this repository scoped to this lab only — no unrelated projects or personal files.
 - Use clear, descriptive filenames.
 - Remove secrets, API keys, and tokens before committing.
+
+## Lab submission — Mobile Game Competitor Snapshot
+
+**Reviewer:** Sean Langsdorf · **Teammate:** Jędrzej Czarnota · **Project audited:** Mobile Game Competitor Snapshot mk.III.
+
+Start with [lab_proof.md](lab_proof.md). Includes the independent report and a written comparison with the builder’s published self-audit. No joint debrief or sign-off is claimed.
+
+| File | Contents |
+| --- | --- |
+| [lab_proof.md](lab_proof.md) | Reviewer entry point, provenance, offline run, evidence, limitation and sources. |
+| [mobile-game-brief-annotations-and-role-map.md](mobile-game-brief-annotations-and-role-map.md) | Brief annotations and brief-only data and role maps. |
+| [mobile-game-gdpr-clarifying-questions.md](mobile-game-gdpr-clarifying-questions.md) | Five questions, provisional assumptions and DPIA screen. |
+| [mobile-game-gdpr-peer-audit-report.md](mobile-game-gdpr-peer-audit-report.md) | Independent report, findings, checklist and recommendation. |
+| [mobile-game-gdpr-debrief-record.md](mobile-game-gdpr-debrief-record.md) | Documentary comparison and individual closing reflection. |
+| [mobile-game-isolation-remediation.md](mobile-game-isolation-remediation.md) | Owners, milestones and acceptance evidence for the top finding. |
+| [check-mobile-game-workflow.py](check-mobile-game-workflow.py) | Offline workflow configuration checker. |
+| [mobile-game-workflow-audit-input.json](mobile-game-workflow-audit-input.json) | Redacted configuration input projected from the pinned n8n export. |
+| [mobile-game-workflow-audit-evidence.json](mobile-game-workflow-audit-evidence.json) | Observed JSON result of the checker. |
