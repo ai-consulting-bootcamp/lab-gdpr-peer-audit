@@ -1,0 +1,13 @@
+# CompanyScope system brief
+
+**Ironhack Project 3 · Sean Langsdorf · 16 November 2026**
+
+CompanyScope prepares a first research briefing about a German registered company. It is for law-firm staff, in-house legal teams and business researchers preparing for a meeting or an initial counterparty review. It replaces some manual searching and formatting. It does not decide whether to hire someone, grant credit, accept a client or approve a transaction. This brief describes the published Project 3 prototype, not a commercial deployment or the broader INCEPT concept.
+
+A user enters a company name and, optionally, a commercial-register identifier in a browser form. The same workflow can be run through an authenticated endpoint or started manually in n8n. It looks for a single matching company in OpenRegister. If the evidence does not identify one match, it stops rather than picking one automatically. When it can, it shows possible matches so the operator can restart with more precise details. Once it has a match, it retrieves company fields such as the registered name, court, number, legal form, address, business purpose and status.
+
+CompanyScope then asks Tavily for a limited set of web results. A local reference collection supplies research-method notes, not facts about the company. The OpenAI model receives selected registry and web evidence plus those notes. Most intended inputs describe companies. Public websites may nevertheless contain names, professional contact details or other information about identifiable people. The search query can also reveal which company a user or firm is researching, even if the company name itself is not personal data. A public source is not permission to collect or reuse everything on it.
+
+The output is a Markdown report and, for browser submissions, a styled results page. The draft separates company profile information, public findings, analytical observations, gaps and suggested follow-up. The workflow checks the report structure and source references before rendering and saving it. Those checks do not prove that a cited source supports the claim or that the findings are complete.
+
+Sean built the prototype by configuring n8n and writing workflow code that connects registry, search and model services. A future professional operator would check the registered entity, open the sources, distinguish verified facts from model inferences and correct or omit unsupported statements before relying on or sharing the report. The published workflow advises professional review but does not enforce sign-off. The organizations described are directly affected by errors. Named individuals may also be affected if a claim concerns them or is repeated outside the research team.
