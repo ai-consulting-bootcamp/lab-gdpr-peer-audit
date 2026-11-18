@@ -1,23 +1,19 @@
-# Audit your teammate's project — GDPR lens
+# GDPR Peer Audit — Audit your teammate's project
 
-**Track:** Module 7 — GDPR · **When:** Week 7, Day 3 · **Status:** Required
+Ironhack AI Consulting & Integration bootcamp · Pieter Albrecht
 
-This repository contains everything you need for this lab.
+**Teammate:** Elif Yurdakul
+**Project audited:** Elif's Project 3, the Unioptt university programme fact-checker. It checks a university programme's facts from official sources and compares the entry requirements with a Turkish student's profile (often a minor's).
 
-## Files
+**Start here:** [lab_proof.md](lab_proof.md)
 
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+## File map
 
-## How to complete this lab
-
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
-
-## Submission hygiene
-
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+| File | Contents |
+|---|---|
+| [lab_proof.md](lab_proof.md) | Entry point: workflow, one run (input → evidence → output), limitations, links |
+| [brief_annotations_GDPR_Elif_Unioptt.md](brief_annotations_GDPR_Elif_Unioptt.md) | Phase 1: Elif's brief, annotated through a GDPR lens |
+| [data_role_map_and_questions_log.md](data_role_map_and_questions_log.md) | Phases 2–3: personal data summary, role map, transfers, clarifying questions log |
+| [GDPR_audit_report_Unioptt_programme_checker.md](GDPR_audit_report_Unioptt_programme_checker.md) | Phase 4: audit report (findings, obligations checklist, recommendation, disclaimer) |
+| [debrief_GDPR_with_Elif.md](debrief_GDPR_with_Elif.md) | Phase 5: debrief and joint closing note; Reinforce |
+| [stretch_remediation_plan_DPIA.md](stretch_remediation_plan_DPIA.md) | Stretch: remediation plan for the DPIA finding |
