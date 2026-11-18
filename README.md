@@ -8,6 +8,13 @@ This repository contains everything you need for this lab.
 
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- [`gdpr-peer-audit-ai-interview-preparation-agent-martha-by-barsha.md`](./gdpr-peer-audit-ai-interview-preparation-agent-martha-by-barsha.md) — my GDPR peer audit: annotations, personal data and role map, clarifying questions log, audit report with obligations checklist, debrief with joint closing note, reinforce, remediation plan
+
+## Peer audit details
+- **Auditor:** Barsha Mishra
+- **Teammate:** Martha
+- **Project audited:** Martha's Project 3 — AI Interview Preparation Agent
+- **My project audited by Martha:** AI Search Visibility Agent
 
 ## How to complete this lab
 
