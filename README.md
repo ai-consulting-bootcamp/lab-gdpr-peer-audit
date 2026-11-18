@@ -21,3 +21,14 @@ This repository contains everything you need for this lab.
 - Keep this repository scoped to this lab only — no unrelated projects or personal files.
 - Use clear, descriptive filenames.
 - Remove secrets, API keys, and tokens before committing.
+
+
+# GDPR peer audit – Pieter's Vendor Due-Diligence Agent (Project 3)
+
+**Auditor:** Elif Yurdakul · **Teammate audited:** Pieter
+
+| File | Contents |
+|---|---|
+| `lab_proof.md` | Entry point: annotations, data and role map, clarifying questions, findings summary, debrief, joint closing note, stretch |
+| `audit_report.md` | Phase 4: two-page audit report |
+| `README.md` | This file map |
