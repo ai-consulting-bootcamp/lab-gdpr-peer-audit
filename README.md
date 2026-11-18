@@ -8,6 +8,15 @@ This repository contains everything you need for this lab.
 
 - [`instructions.md`](./instructions.md) — the lab instructions
 - [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+- [`companyscope_system_brief.md`](./companyscope_system_brief.md) — Sean Langsdorf's exchanged data-processing brief for the CompanyScope project
+- [`companyscope_classification_and_questions.md`](./companyscope_classification_and_questions.md) — independent annotations, personal-data/role maps and clarifying-questions log
+- [`companyscope_gdpr_audit_report.md`](./companyscope_gdpr_audit_report.md) — structured GDPR audit report and recommendation
+- [`companyscope_debrief.md`](./companyscope_debrief.md) — six-step debrief, findings and joint closing note
+- [`companyscope_remediation_plan.md`](./companyscope_remediation_plan.md) — optional stretch remediation plan for the highest-priority vendor/transfer finding
+
+## Audit scope
+
+This repository audits Sean Langsdorf's **CompanyScope** project. The audit was prepared independently from the system brief, followed by a six-step debrief with Sean.
 
 ## How to complete this lab
 
