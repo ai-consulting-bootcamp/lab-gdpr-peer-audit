@@ -1,0 +1,14 @@
+Tavily|Tavily
+Jina Reader|Jina
+GDELT|GDELT
+OpenAI model|OpenAI
+local criteria file|local file
+founders names / personal data mentioned|founders|personal data
+personal data sent to model unverified|remains unverified
+human decision by analyst|makes the final decision
+no automatic invitations / decisions|sends no invitations
+retention period|retain|retention|delete
+data location / region / EU|\bEU\b|Europe|\bregion\b|server|hosted
+DPA / contract|DPA|agreement|contract
+lawful basis|lawful|legitimate interest|consent
+privacy notice / informing founders|privacy notice|\binform(ed|s)?\b founders|notif
