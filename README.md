@@ -1,23 +1,16 @@
-# Audit your teammate's project — GDPR lens
+# GDPR peer audit: Application Prep Agent
 
-**Track:** Module 7 — GDPR · **When:** Week 7, Day 3 · **Status:** Required
-
-This repository contains everything you need for this lab.
+Auditor: Friedrich Tschoepke · Teammate: **Nicolò Marseu** · Audited project: **Application Prep Agent** (Nicolò's Project 3), [repository](https://github.com/nmarseu/Project-3-Marseu)
 
 ## Files
 
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+| File | Contents |
+|---|---|
+| `01_annotated_brief_gdpr_application_prep_agent.md` | Phase 1: annotations on personal data, special categories, unclear points, non-EU flows, purpose changes |
+| `02_data_role_map_and_questions_log_application_prep_agent.md` | CFU 1; Phase 2 personal data summary, role map, transfers; Phase 3 clarifying questions log with assumptions |
+| `03_gdpr_audit_report_application_prep_agent.md` | Phase 4 audit report: summary, data and role map, six findings, obligations checklist, recommendation, disclaimer |
+| `04_debrief_and_remediation_plan_application_prep_agent.md` | Phase 5 debrief template with joint closing note (to complete together), reinforce reflection, stretch remediation plan |
 
-## How to complete this lab
+## Result in one line
 
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
-
-## Submission hygiene
-
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+Do not proceed with real candidate data until processor contracts and a DPIA are in place; afterwards proceed with conditions.
