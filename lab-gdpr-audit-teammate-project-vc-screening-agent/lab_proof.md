@@ -61,7 +61,7 @@ NOT FOUND privacy notice / informing founders (0)
 2. **The input document arrived late.** The first pass used her AI Act System Brief. Her GDPR data processing brief arrived afterwards, inside her Q&A document, and the report was updated. One provisional assumption was wrong: Q4 assumed analysts only, but the test reports are public on GitHub.
 3. **Nothing verified against her system.** I have not seen her code, the Kalipso/Lawra reports or any contracts.
 4. **Missing official source.** `01_gdpr-fundamentals.md` was not available and has not been read.
-5. **Steps not done:** debrief steps 1 (sending the report), 4 (DPIA comparison) and 5 (gap comparison) are still pending. The joint closing note is done.
+5. **Steps not done:** debrief steps 4 (DPIA comparison) and 5 (gap comparison) were not held. On 24 Nov 2026 the instructor said they were not required (reported by Jaime). The comparison therefore shows only my side; Sandra's DPIA conclusion and her self-audit gaps are not recorded. The joint closing note is done.
 
 ## 6. Second evidence run — code check of the builder's repository (18 Nov 2026)
 

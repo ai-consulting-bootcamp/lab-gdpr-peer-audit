@@ -14,21 +14,21 @@
 | [`clarifying_questions_log_vc_screening.md`](clarifying_questions_log_vc_screening.md) | Phase 3: five questions. Q1 (request for her GDPR brief) to send now; Q2–Q5 for the debrief |
 | [`gdpr_audit_report_vc_screening.md`](gdpr_audit_report_vc_screening.md) | Phase 4: audit report (2 pages), updated 18 Nov with her brief: six findings, nine-obligation checklist, **Proceed with conditions** |
 | [`reinforce_answers_to_teammate_questions.md`](reinforce_answers_to_teammate_questions.md) | Reinforce: my answers to Sandra's 5 questions about my agent (received 17 Nov, 18:02), checked against the code; which ones my documentation could not answer |
-| [`debrief_and_joint_closing_note.md`](debrief_and_joint_closing_note.md) | Phase 5: debrief script. Comparison table and **joint closing note blank** until the real debrief |
+| [`debrief_and_joint_closing_note.md`](debrief_and_joint_closing_note.md) | Phase 5: debrief record (steps 1–3 and 6 done in writing; 4–5 not held, instructor: not required) and the **joint closing note** |
 | [`proof/`](proof/) | Documentary check script, term list and output log |
 
 ## Status
 
-| Item | Status (17 Nov 2026) |
+| Item | Status (24 Nov 2026) |
 |---|---|
 | Phases 1–4 | **Prepared** (provisional; tutor draft; the student must review and defend it) |
 | Sandra's questions about my system | **Received** 17 Nov, 18:02; answers prepared |
 | My Q1–Q5 to Sandra | **Sent 17 Nov; answered** |
 | Teammate's GDPR data processing brief | **Received** (inside her Q&A document) |
-| Debrief (6 steps) | Steps 2, 3 and 6 done in writing; 1, 4 and 5 **pending** |
+| Debrief (6 steps) | Steps 1, 2, 3 and 6 done in writing; 4 and 5 **not held**: the instructor said they were not required (reported by Jaime, 24 Nov 2026) |
 | Joint closing note | **Done** (18 Nov 2026) |
 | GitHub | Folder added to a fork of `ai-consulting-bootcamp/lab-gdpr-peer-audit`; pull request opened 18 Nov 2026 |
-| Submitted on the portal / accepted | **No / No** |
+| Synced on the portal / accepted | Pending sync by Jaime / **No** |
 
 **Tags:** **[V]** verified · **[D]** declared · **[A]** inference or assumption · **[NC]** not covered.
 

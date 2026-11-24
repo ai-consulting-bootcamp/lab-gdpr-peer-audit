@@ -1,15 +1,15 @@
 # Phase 5 — Debrief (six steps) and joint closing note
 
 **Auditor:** Jaime Garate Marquerie · **Builder:** Sandra Obregón
-**Status on 18 Nov 2026:** steps 2, 3 and 6 done in writing; steps 1, 4 and 5 **pending**. Only what actually happened is recorded.
+**Final status (24 Nov 2026):** steps 2, 3 and 6 done in writing; step 1 done by sharing the report in writing; steps 4 and 5 **not held**. The debrief was closed without a live session: on 24 Nov 2026 the instructor said the remaining steps were not required (reported by Jaime; not in writing). Only what actually happened is recorded.
 
 | Step | What the lab asks | Status | Record |
 |---|---|---|---|
-| 1. Auditor presents | Walk through the audit report | **Pending.** Send the updated report (2 pages, 18 Nov) | — |
+| 1. Auditor presents | Walk through the audit report | **Done in writing.** Updated report (2 pages) shared with Sandra on 18 Nov 2026 [D: declared by Jaime] | `gdpr_audit_report_vc_screening.md` |
 | 2. Builder responds | Context, choices, missing information | **Done in writing**: her *GDPR Questions and Answers* | Summarised in the clarifying questions log |
 | 3. Compare lawful bases (primary purpose) | Each reveals their choice | **Half done.** Sandra: legitimate interests considered, initial LIA drafted, `TBD — legal review`. Jaime: 6(1)(f) plausible, LIA to be completed (F3) | Agree on legitimate interests + legal review; confirm with her |
-| 4. Compare DPIA conclusions | Agree or name the ambiguity | **Pending.** Sandra's DPIA view is not in her brief. Jaime: DPIA screening; full DPIA if founders are assessed or scale grows | — |
-| 5. Compare gap lists | Self-audit vs external audit | **Pending.** Candidates only I raised: public GitHub reports (F1), Gmail sign-in with no organisation account confirmed (F2), Art. 10 news risk | — |
+| 4. Compare DPIA conclusions | Agree or name the ambiguity | **Not held** (instructor: not required). Sandra's DPIA view is not in her brief, so only my side exists: DPIA screening now; full DPIA if founders are assessed or scale grows | My side only |
+| 5. Compare gap lists | Self-audit vs external audit | **Not held** (instructor: not required). Gaps only I raised, not yet compared with her self-audit: public GitHub reports (F1), Gmail sign-in with no organisation account confirmed (F2), Art. 10 news risk | My side only |
 | 6. Joint closing note | 2–3 sentences, written together | **Done**: written by Sandra, approved by both on 18 Nov 2026 | Below |
 
 ## Joint closing note (required deliverable)
