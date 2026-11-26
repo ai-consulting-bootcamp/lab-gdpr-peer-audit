@@ -19,6 +19,7 @@ Model Intake Brief helps a governance reviewer check whether a third-party AI mo
 > **Description:** Processors already receive personal data: his own probe shows contact details reach OpenAI. DPA acceptance is unverified, and Jina Reader and the Hugging Face Hub are used without an account, so probably without any contract.
 > **Recommended action:** Accept and file each vendor's DPA. For keyless services, either sign up for a contracted plan, assess whether the vendor acts as an independent controller ⚖️, or replace them. Until then, use offline mode.
 > **Escalation needed?** Yes, to the client's DPO before a client deployment.
+> *Post-debrief correction (26 Nov):* the probe was intercepted locally, so transmission of personal data is *possible*, not *shown*. The finding stays Blocking for live runs on unscreened sources (see `04`, step 2).
 
 > **Finding 2 - International transfers (Chapter V)**
 > **Severity:** Significant
